@@ -11,7 +11,7 @@
 	"devDependencies": {
 		"@fontsource/fira-mono": "^5.0.0",
 		"@jill64/sveltekit-adapter-aws": "^1.8.13",
-		"@neoconfetti/svelte": "^1.0.0",
+		"@neoconfetti/svelte": "^2.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
