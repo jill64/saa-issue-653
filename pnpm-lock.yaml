@@ -19,8 +19,8 @@ importers:
         specifier: ^1.8.13
         version: 1.8.13(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(typescript@5.4.5)
       '@neoconfetti/svelte':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^2.0.0
+        version: 2.2.1
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
         version: 3.2.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))
@@ -1009,8 +1009,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@neoconfetti/svelte@1.0.0':
-    resolution: {integrity: sha512-SmksyaJAdSlMa9cTidVSIqYo1qti+WTsviNDwgjNVm+KQ3DRP2Df9umDIzC4vCcpEYY+chQe0i2IKnLw03AT8Q==}
+  '@neoconfetti/svelte@2.2.1':
+    resolution: {integrity: sha512-2Ts0Rxaf6clW2qG+AKhTwpl01AAyZEAe03XeuQ7Vp+qYIaM3ycuI94j546fmEkUxwACwGI3Zl2cZ/pncTuNcJg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -3733,7 +3733,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@neoconfetti/svelte@1.0.0': {}
+  '@neoconfetti/svelte@2.2.1': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
