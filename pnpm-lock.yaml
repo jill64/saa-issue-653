@@ -17,7 +17,7 @@ importers:
         version: 5.0.13
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.8.13(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(typescript@5.4.5)
+        version: 1.9.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(typescript@5.4.5)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -978,8 +978,8 @@ packages:
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
 
-  '@jill64/sveltekit-adapter-aws@1.8.13':
-    resolution: {integrity: sha512-X5aBsFUK5Xfy3I28ZQuZBPrY3B4BaQk2Tv1seQcjj66wYuDbIWIpAQpYyavyc+2HjB7Bai+FkLQwhV0l92A5VQ==}
+  '@jill64/sveltekit-adapter-aws@1.9.0':
+    resolution: {integrity: sha512-klKQif0TGsE9XYgUQukOOpyg/MZiyxrvUEkDcYa+hqSNgpIFM7QMMIQjVyWbgX3Fq9+UcUv3k1Rv9/gYwr+QUA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -3691,7 +3691,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.8.13(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(typescript@5.4.5)':
+  '@jill64/sveltekit-adapter-aws@1.9.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(typescript@5.4.5)':
     dependencies:
       '@jill64/types-lambda': 1.2.1(typescript@5.4.5)
       '@sveltejs/kit': 2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.16)(vite@5.2.11(terser@5.31.0))
