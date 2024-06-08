@@ -17,7 +17,7 @@ importers:
         version: 5.0.13
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.20(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(typescript@5.4.5)
+        version: 1.9.21(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(typescript@5.4.5)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -982,8 +982,8 @@ packages:
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
 
-  '@jill64/sveltekit-adapter-aws@1.9.20':
-    resolution: {integrity: sha512-KDMrZWi8tVqQQGgs8KoDGvBJ6zOU9xIqzzAayOJ48IU0eb4iuqEU/Cacbr57NOj53vHi9PlA5uorn7fnPTmPUQ==}
+  '@jill64/sveltekit-adapter-aws@1.9.21':
+    resolution: {integrity: sha512-SiaKqhoef/QTzNw2SRkzshmhJqqsjb2zuZpj22/vMgOEAUMe/NtzcVO6/8XVYWvu9PRVVfIZxjGl1QplGvPVIA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -2587,8 +2587,8 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
-  tsx@4.13.2:
-    resolution: {integrity: sha512-s+WGqChkA77uU8xij1IdO9jQnwJAiWJto0bF5yJLbAZpLtNs82Qa5CwMBxWjJ7QOYU9MzBf4MCNt6lZduwkQ+g==}
+  tsx@4.13.3:
+    resolution: {integrity: sha512-FTAJJLQCMiIbt78kD5qhLjHIR5NOQDKC63wcdelWRDBE+d1xSrXYhXq4DzejnC2tGhFZHpDy2Ika0Ugf7sK8gA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -3766,7 +3766,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.20(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(typescript@5.4.5)':
+  '@jill64/sveltekit-adapter-aws@1.9.21(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(typescript@5.4.5)':
     dependencies:
       '@jill64/types-lambda': 1.2.1(typescript@5.4.5)
       '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(terser@5.31.1)))(svelte@4.2.18)(vite@5.2.13(terser@5.31.1))
@@ -3778,7 +3778,7 @@ snapshots:
       esbuild: 0.21.4
       mime-types: 2.1.35
       nanoid: 5.0.7
-      tsx: 4.13.2
+      tsx: 4.13.3
     transitivePeerDependencies:
       - typescript
 
@@ -5479,7 +5479,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  tsx@4.13.2:
+  tsx@4.13.3:
     dependencies:
       esbuild: 0.20.2
       get-tsconfig: 4.7.5
