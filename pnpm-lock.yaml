@@ -17,16 +17,16 @@ importers:
         version: 5.0.13
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.30(@sveltejs/kit@2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.4.5)
+        version: 1.9.30(@sveltejs/kit@2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.4.5)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
-        version: 3.2.2(@sveltejs/kit@2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))
+        version: 3.2.2(@sveltejs/kit@2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))
       '@sveltejs/kit':
         specifier: ^2.0.0
-        version: 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
+        version: 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
         version: 3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
@@ -1032,8 +1032,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.5.14':
-    resolution: {integrity: sha512-wgn1EbZOmnqbvs1vjWyrQhrdphSqBALGlMa30rbKXYyLLgrUkHzZHxL7MRfQbtmAi1YEbrNBMt9BadfB57w+Qw==}
+  '@sveltejs/kit@2.5.15':
+    resolution: {integrity: sha512-O3yB2Z84xllzaRyBLAw/jCi74wx9hTszs6mqUj4pbKsGBRHtTXl3qA+yvKbfXnxNhab/jEyVfphB9q6jU05dpg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -1436,8 +1436,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.802:
-    resolution: {integrity: sha512-TnTMUATbgNdPXVSHsxvNVSG0uEd6cSZsANjm8c9HbvflZVVn1yTRcmVXYT1Ma95/ssB/Dcd30AHweH2TE+dNpA==}
+  electron-to-chromium@1.4.803:
+    resolution: {integrity: sha512-61H9mLzGOCLLVsnLiRzCbc63uldP0AniRYPV3hbGVtONA1pI7qSGILdbofR7A8TMbOypDocEAjH/e+9k1QIe3g==}
 
   es-abstract@1.23.3:
     resolution: {integrity: sha512-e+HfNH61Bj1X9/jLc5v1owaLYuHdeHHSQlkhCBiTK8rBvKaULl/beGMxwrMXjpYrv4pz22BlY570vVePA2ho4A==}
@@ -3561,10 +3561,10 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.30(@sveltejs/kit@2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.4.5)':
+  '@jill64/sveltekit-adapter-aws@1.9.30(@sveltejs/kit@2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.4.5)':
     dependencies:
       '@jill64/types-lambda': 1.2.1(typescript@5.4.5)
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
       '@types/mime-types': 2.1.4
       aws-cdk: 2.146.0
       aws-cdk-lib: 2.146.0(constructs@10.3.0)
@@ -3723,12 +3723,12 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
 
-  '@sveltejs/adapter-auto@3.2.2(@sveltejs/kit@2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))':
+  '@sveltejs/adapter-auto@3.2.2(@sveltejs/kit@2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))':
     dependencies:
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.5.14(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))':
+  '@sveltejs/kit@2.5.15(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
       '@types/cookie': 0.6.0
@@ -4001,7 +4001,7 @@ snapshots:
   browserslist@4.23.1:
     dependencies:
       caniuse-lite: 1.0.30001634
-      electron-to-chromium: 1.4.802
+      electron-to-chromium: 1.4.803
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
 
@@ -4159,7 +4159,7 @@ snapshots:
     dependencies:
       jake: 10.9.1
 
-  electron-to-chromium@1.4.802: {}
+  electron-to-chromium@1.4.803: {}
 
   es-abstract@1.23.3:
     dependencies:
