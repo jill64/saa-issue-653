@@ -17,7 +17,7 @@ importers:
         version: 5.0.13
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.35(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.5.2)
+        version: 1.9.36(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.5.2)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -846,13 +846,13 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jill64/sveltekit-adapter-aws@1.9.35':
-    resolution: {integrity: sha512-A65wKe+efxISoct2dledU9+kKsiYuvEX0/llF3tBToOw7DSquxDY7IEHLqSf9VX4FCfaxPwzeyS20ZzGbUvMPg==}
+  '@jill64/sveltekit-adapter-aws@1.9.36':
+    resolution: {integrity: sha512-z258mH+eDR81lfveRweiRK4q6cy61Nd7C+k6euX0EBkoBhoQKKheyIBiPJE3K1k5oxztFBVqXVeKZBaM9M+0dw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@jill64/types-lambda@1.2.1':
-    resolution: {integrity: sha512-m9DPz9pBLVLx69yAe/IQ+UZOYMIGv2pqySK256VaFSv7sgxvZ6OEs3zxY/OVntk8rIXRRmALzFRECtea9g04+g==}
+  '@jill64/types-lambda@1.2.2':
+    resolution: {integrity: sha512-V4DzqxhejcSbq/FbdaSy5ElIS5OjSw7iDxd24WNDeZWFkMtxsCzhA9dJ+QEgh7rbEC+vYbjP2W/NVNv8qTEz4w==}
     peerDependencies:
       typescript: ^5.0.0
 
@@ -3564,9 +3564,9 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.35(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.5.2)':
+  '@jill64/sveltekit-adapter-aws@1.9.36(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(typescript@5.5.2)':
     dependencies:
-      '@jill64/types-lambda': 1.2.1(typescript@5.5.2)
+      '@jill64/types-lambda': 1.2.2(typescript@5.5.2)
       '@sveltejs/kit': 2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.1(terser@5.31.1))
       '@types/mime-types': 2.1.4
       aws-cdk: 2.147.1
@@ -3580,7 +3580,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@jill64/types-lambda@1.2.1(typescript@5.5.2)':
+  '@jill64/types-lambda@1.2.2(typescript@5.5.2)':
     dependencies:
       typescript: 5.5.2
 
