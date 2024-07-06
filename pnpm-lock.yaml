@@ -17,7 +17,7 @@ importers:
         version: 5.0.13
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.42(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(typescript@5.5.3)
+        version: 1.9.43(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(typescript@5.5.3)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -846,8 +846,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jill64/sveltekit-adapter-aws@1.9.42':
-    resolution: {integrity: sha512-2ZvGfqAyX67Tq2eKi13jQQyz0lZfgrxvROyp6b05x4MOhLSsv/erNwo9MT6/bGM46aTet69rL9jTkGnWZMYgcA==}
+  '@jill64/sveltekit-adapter-aws@1.9.43':
+    resolution: {integrity: sha512-bMa3oajZlfrEhBTHw4pyujv7t0tf0gwMXwZajT8FAHdvdQP7umFApyMcvFYgm2hdTXICEFJOZQ8XU2EgnA1srA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1228,8 +1228,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.147.3:
-    resolution: {integrity: sha512-Y+o2eONCMQ2xwLpeUevwOeShxhlmW42Qx1uBWreF9fKzCeFkZ/in66FlaCBKlLXtKPQOdhmWNWKJ9A+pE+L+5A==}
+  aws-cdk@2.148.0:
+    resolution: {integrity: sha512-nuCWY8I0xkIz7B2LjIL4h/xLHWTFhINL8i2fdA0BPq8t0byhLaNw5wggvztDjWH5xq5I1DM3laiv4/q5S21Xrg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1437,8 +1437,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.816:
-    resolution: {integrity: sha512-EKH5X5oqC6hLmiS7/vYtZHZFTNdhsYG5NVPRN6Yn0kQHNBlT59+xSM8HBy66P5fxWpKgZbPqb+diC64ng295Jw==}
+  electron-to-chromium@1.4.817:
+    resolution: {integrity: sha512-3znu+lZMIbTe8ZOs360OMJvVroVF2NpNI8T5jfLnDetVvj0uNmIucZzQVYMSJfsu9f47Ssox1Gt46PR+R+1JUg==}
 
   es-abstract@1.23.3:
     resolution: {integrity: sha512-e+HfNH61Bj1X9/jLc5v1owaLYuHdeHHSQlkhCBiTK8rBvKaULl/beGMxwrMXjpYrv4pz22BlY570vVePA2ho4A==}
@@ -3568,12 +3568,12 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.42(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(typescript@5.5.3)':
+  '@jill64/sveltekit-adapter-aws@1.9.43(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(typescript@5.5.3)':
     dependencies:
       '@jill64/types-lambda': 1.2.2(typescript@5.5.3)
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(terser@5.31.1)))(svelte@4.2.18)(vite@5.3.3(terser@5.31.1))
       '@types/mime-types': 2.1.4
-      aws-cdk: 2.147.3
+      aws-cdk: 2.148.0
       aws-cdk-lib: 2.147.3(constructs@10.3.0)
       constructs: 10.3.0
       dotenv: 16.4.5
@@ -3956,7 +3956,7 @@ snapshots:
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.3
       constructs: 10.3.0
 
-  aws-cdk@2.147.3:
+  aws-cdk@2.148.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -4008,7 +4008,7 @@ snapshots:
   browserslist@4.23.1:
     dependencies:
       caniuse-lite: 1.0.30001640
-      electron-to-chromium: 1.4.816
+      electron-to-chromium: 1.4.817
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.1)
 
@@ -4166,7 +4166,7 @@ snapshots:
     dependencies:
       jake: 10.9.1
 
-  electron-to-chromium@1.4.816: {}
+  electron-to-chromium@1.4.817: {}
 
   es-abstract@1.23.3:
     dependencies:
