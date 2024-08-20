@@ -17,7 +17,7 @@ importers:
         version: 5.0.14
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.56(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(typescript@5.5.4)
+        version: 1.9.57(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(typescript@5.5.4)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -986,8 +986,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jill64/sveltekit-adapter-aws@1.9.56':
-    resolution: {integrity: sha512-FIlyfO21F/XzjpdqMrA2su0JaP+zNj4SF2YhpLEVC9jU/0hvgIPWVbtSgt7dwdr37AKjXXHJNTfH9xrSgB9sjQ==}
+  '@jill64/sveltekit-adapter-aws@1.9.57':
+    resolution: {integrity: sha512-SmohJrWPCoONY6ugXMqNIeG2SS4dZAZTIMBjVJo+Kmby2wFkYzpKJBhucm1n/lG0xqPGBxJ7TaMHVNf8W3GFDA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1341,8 +1341,8 @@ packages:
     resolution: {integrity: sha512-bMxMKAjg13EBSVscxTaYA4mRc5t1UAXa2kXiGTNfZ079HIWXEkKmkgFrh/nJqamaLSrXO5H4WFFkPEaLJWbs3A==}
     engines: {node: '>= 0.4'}
 
-  async@3.2.5:
-    resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
+  async@3.2.6:
+    resolution: {integrity: sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA==}
 
   at-least-node@1.0.0:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
@@ -1352,8 +1352,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.152.0:
-    resolution: {integrity: sha512-w8Dn92xYCUWSRL9ncoXzpGzyDAHbljnrhXFm/pTR1YZTxdbLHvIOdh7D9b9qhtghUnq2i522I6/z2NJggPcNWQ==}
+  aws-cdk-lib@2.153.0:
+    resolution: {integrity: sha512-wj8NnZb/F/SZGz7SqMgXL5eAu4CkJdjUIzDDXh16Fdo7vE8o59qFGZz8m0vA4aTXG10jtWxnJwAfoQPgzXqFCw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1370,8 +1370,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.152.0:
-    resolution: {integrity: sha512-Cvmy8bKbn5EwUs9H+p4lR4UfbWDBBU9YTCoXziLzGnPL8i/I56wz92sX/awpTxDY9YocERdps0mXo8q0mu/Mvg==}
+  aws-cdk@2.153.0:
+    resolution: {integrity: sha512-cBP+K9/BH0VpkNkm61c/1UCdY7MCUXxRTEUYT1TNDSR9rJQPseaeKWNwtt31KxvT6xbgoskh0NTOpy7t+bqWUw==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1588,8 +1588,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.11:
-    resolution: {integrity: sha512-R1CccCDYqndR25CaXFd6hp/u9RaaMcftMkphmvuepXr5b1vfLkRml6aWVeBhXJ7rbevHkKEMJtz8XqPf7ffmew==}
+  electron-to-chromium@1.5.12:
+    resolution: {integrity: sha512-tIhPkdlEoCL1Y+PToq3zRNehUaKp3wBX/sr7aclAWdIWjvqAe/Im/H0SiCM4c1Q8BLPHCdoJTol+ZblflydehA==}
 
   es-abstract@1.23.3:
     resolution: {integrity: sha512-e+HfNH61Bj1X9/jLc5v1owaLYuHdeHHSQlkhCBiTK8rBvKaULl/beGMxwrMXjpYrv4pz22BlY570vVePA2ho4A==}
@@ -3818,13 +3818,13 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.56(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(typescript@5.5.4)':
+  '@jill64/sveltekit-adapter-aws@1.9.57(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(typescript@5.5.4)':
     dependencies:
       '@jill64/types-lambda': 1.2.2(typescript@5.5.4)
       '@sveltejs/kit': 2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.1(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.1(terser@5.31.6))
       '@types/mime-types': 2.1.4
-      aws-cdk: 2.152.0
-      aws-cdk-lib: 2.152.0(constructs@10.3.0)
+      aws-cdk: 2.153.0
+      aws-cdk-lib: 2.153.0(constructs@10.3.0)
       constructs: 10.3.0
       dotenv: 16.4.5
       esbuild: 0.23.1
@@ -4193,7 +4193,7 @@ snapshots:
       is-array-buffer: 3.0.4
       is-shared-array-buffer: 1.0.3
 
-  async@3.2.5: {}
+  async@3.2.6: {}
 
   at-least-node@1.0.0: {}
 
@@ -4201,14 +4201,14 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-cdk-lib@2.152.0(constructs@10.3.0):
+  aws-cdk-lib@2.153.0(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.3
       constructs: 10.3.0
 
-  aws-cdk@2.152.0:
+  aws-cdk@2.153.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -4260,7 +4260,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.11
+      electron-to-chromium: 1.5.12
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -4422,7 +4422,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.11: {}
+  electron-to-chromium@1.5.12: {}
 
   es-abstract@1.23.3:
     dependencies:
@@ -4957,7 +4957,7 @@ snapshots:
 
   jake@10.9.2:
     dependencies:
-      async: 3.2.5
+      async: 3.2.6
       chalk: 4.1.2
       filelist: 1.0.4
       minimatch: 3.1.2
