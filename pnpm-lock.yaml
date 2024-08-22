@@ -17,7 +17,7 @@ importers:
         version: 5.0.14
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.57(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)
+        version: 1.9.58(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -93,6 +93,13 @@ packages:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.0.3':
     resolution: {integrity: sha512-twhuEG+JPOYCYPx/xy5uH2+VUsIEhPTzDY0F1KuB+ocjWWB/KEDiOVL19nHvbPCB6fhWnkykXEMJ4HHcKvjtvg==}
+
+  '@aws-cdk/cloud-assembly-schema@36.0.14':
+    resolution: {integrity: sha512-8ecWc6vjOXzQjFuzLOX4L28u8ZQn13vNOd6N2cYu26+LuZHoxZAIyyITldLNazxbiqJ1aNSsa++GlvO/wEpGjQ==}
+    engines: {node: '>= 18.18.0'}
+    bundledDependencies:
+      - jsonschema
+      - semver
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -986,8 +993,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jill64/sveltekit-adapter-aws@1.9.57':
-    resolution: {integrity: sha512-SmohJrWPCoONY6ugXMqNIeG2SS4dZAZTIMBjVJo+Kmby2wFkYzpKJBhucm1n/lG0xqPGBxJ7TaMHVNf8W3GFDA==}
+  '@jill64/sveltekit-adapter-aws@1.9.58':
+    resolution: {integrity: sha512-7ZdHPJVzKzdBUz3P6qfppkDltJ7t3BhVYFqZwaGdN/pr3CXAsgJGAOZJ94ln5ZSCwovEci0d0j66E4cmo7N8qQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1352,8 +1359,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.153.0:
-    resolution: {integrity: sha512-wj8NnZb/F/SZGz7SqMgXL5eAu4CkJdjUIzDDXh16Fdo7vE8o59qFGZz8m0vA4aTXG10jtWxnJwAfoQPgzXqFCw==}
+  aws-cdk-lib@2.154.0:
+    resolution: {integrity: sha512-r6WmN+pk0k328Ig7yn9tqst5QR4XmyMCUG2artMgzA1YfDd4nDaP9zgJlHXIMOfVRbhgoCBX1XSSqLtN5Losgg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1370,8 +1377,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.153.0:
-    resolution: {integrity: sha512-cBP+K9/BH0VpkNkm61c/1UCdY7MCUXxRTEUYT1TNDSR9rJQPseaeKWNwtt31KxvT6xbgoskh0NTOpy7t+bqWUw==}
+  aws-cdk@2.154.0:
+    resolution: {integrity: sha512-Py4nbE7GJj37iB7B4bUs8s9XOHDUVJBuJgYmUJFZ9Sz4SLpZGiDJLdtaBBOYl/rGSIrMUIfkBQLvHjhUtKplTw==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1588,8 +1595,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.12:
-    resolution: {integrity: sha512-tIhPkdlEoCL1Y+PToq3zRNehUaKp3wBX/sr7aclAWdIWjvqAe/Im/H0SiCM4c1Q8BLPHCdoJTol+ZblflydehA==}
+  electron-to-chromium@1.5.13:
+    resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
 
   es-abstract@1.23.3:
     resolution: {integrity: sha512-e+HfNH61Bj1X9/jLc5v1owaLYuHdeHHSQlkhCBiTK8rBvKaULl/beGMxwrMXjpYrv4pz22BlY570vVePA2ho4A==}
@@ -1933,8 +1940,8 @@ packages:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
 
-  is-core-module@2.15.0:
-    resolution: {integrity: sha512-Dd+Lb2/zvk9SKy1TGCt1wFJFo/MWBPMX5x7KcvLajWTGuomczdQX61PvY5yK6SVACwpoexWo81IfFyoKY2QnTA==}
+  is-core-module@2.15.1:
+    resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
     engines: {node: '>= 0.4'}
 
   is-data-view@1.0.1:
@@ -2877,6 +2884,8 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.0.3': {}
 
+  '@aws-cdk/cloud-assembly-schema@36.0.14': {}
+
   '@babel/code-frame@7.24.7':
     dependencies:
       '@babel/highlight': 7.24.7
@@ -3818,13 +3827,13 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.57(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)':
+  '@jill64/sveltekit-adapter-aws@1.9.58(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)':
     dependencies:
       '@jill64/types-lambda': 1.2.2(typescript@5.5.4)
       '@sveltejs/kit': 2.5.24(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.18)(vite@5.4.2(terser@5.31.6))
       '@types/mime-types': 2.1.4
-      aws-cdk: 2.153.0
-      aws-cdk-lib: 2.153.0(constructs@10.3.0)
+      aws-cdk: 2.154.0
+      aws-cdk-lib: 2.154.0(constructs@10.3.0)
       constructs: 10.3.0
       dotenv: 16.4.5
       esbuild: 0.23.1
@@ -4201,14 +4210,15 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-cdk-lib@2.153.0(constructs@10.3.0):
+  aws-cdk-lib@2.154.0(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.3
+      '@aws-cdk/cloud-assembly-schema': 36.0.14
       constructs: 10.3.0
 
-  aws-cdk@2.153.0:
+  aws-cdk@2.154.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -4260,7 +4270,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.12
+      electron-to-chromium: 1.5.13
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -4422,7 +4432,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.12: {}
+  electron-to-chromium@1.5.13: {}
 
   es-abstract@1.23.3:
     dependencies:
@@ -4886,7 +4896,7 @@ snapshots:
 
   is-callable@1.2.7: {}
 
-  is-core-module@2.15.0:
+  is-core-module@2.15.1:
     dependencies:
       hasown: 2.0.2
 
@@ -5247,7 +5257,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.15.0
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
