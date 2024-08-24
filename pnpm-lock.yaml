@@ -17,7 +17,7 @@ importers:
         version: 5.0.14
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.59(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)
+        version: 1.9.60(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
@@ -94,8 +94,8 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.0.3':
     resolution: {integrity: sha512-twhuEG+JPOYCYPx/xy5uH2+VUsIEhPTzDY0F1KuB+ocjWWB/KEDiOVL19nHvbPCB6fhWnkykXEMJ4HHcKvjtvg==}
 
-  '@aws-cdk/cloud-assembly-schema@36.0.14':
-    resolution: {integrity: sha512-8ecWc6vjOXzQjFuzLOX4L28u8ZQn13vNOd6N2cYu26+LuZHoxZAIyyITldLNazxbiqJ1aNSsa++GlvO/wEpGjQ==}
+  '@aws-cdk/cloud-assembly-schema@36.0.15':
+    resolution: {integrity: sha512-hblt0SNCYVeWKqSFi7d+xUaowCnpQWOiJuG2EGoNfj/kdkXnBPsy3gkqudwEafuiv8xJS5jHplLPfEqbdTEnYA==}
     engines: {node: '>= 18.18.0'}
     bundledDependencies:
       - jsonschema
@@ -993,8 +993,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jill64/sveltekit-adapter-aws@1.9.59':
-    resolution: {integrity: sha512-K1CQL+j4FvkcpsQuvqNYocrAh2obWAXicFV3+9mg3zxYLrUOvkNZ/ZmfJ4dTcSNZp9AswNqn96P3D4Lm0HujUw==}
+  '@jill64/sveltekit-adapter-aws@1.9.60':
+    resolution: {integrity: sha512-Pqdzf40dweZQvbz+zxhMGbNX/IYOU0KSEAwtReOc4f6D3ZjBuQvlUHg4YddGUzle1O2hm3j+JazvhFyvAS+cfA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -2637,8 +2637,8 @@ packages:
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
-  tsx@4.17.0:
-    resolution: {integrity: sha512-eN4mnDA5UMKDt4YZixo9tBioibaMBpoxBkD+rIPAjVmYERSG0/dWEY1CEFuV89CgASlKL499q8AhmkMnnjtOJg==}
+  tsx@4.18.0:
+    resolution: {integrity: sha512-a1jaKBSVQkd6yEc1/NI7G6yHFfefIcuf3QJST7ZEyn4oQnxLYrZR5uZAM8UrwUa3Ge8suiZHcNS1gNrEvmobqg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2874,7 +2874,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.0.3': {}
 
-  '@aws-cdk/cloud-assembly-schema@36.0.14': {}
+  '@aws-cdk/cloud-assembly-schema@36.0.15': {}
 
   '@babel/code-frame@7.24.7':
     dependencies:
@@ -3817,7 +3817,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.59(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)':
+  '@jill64/sveltekit-adapter-aws@1.9.60(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(typescript@5.5.4)':
     dependencies:
       '@jill64/types-lambda': 1.2.2(typescript@5.5.4)
       '@sveltejs/kit': 2.5.24(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.2(terser@5.31.6)))(svelte@4.2.19)(vite@5.4.2(terser@5.31.6))
@@ -3829,7 +3829,7 @@ snapshots:
       esbuild: 0.23.1
       mime-types: 2.1.35
       nanoid: 5.0.7
-      tsx: 4.17.0
+      tsx: 4.18.0
     transitivePeerDependencies:
       - typescript
 
@@ -4201,7 +4201,7 @@ snapshots:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.3
-      '@aws-cdk/cloud-assembly-schema': 36.0.14
+      '@aws-cdk/cloud-assembly-schema': 36.0.15
       constructs: 10.3.0
 
   aws-cdk@2.154.1:
@@ -5551,7 +5551,7 @@ snapshots:
 
   tslib@2.7.0: {}
 
-  tsx@4.17.0:
+  tsx@4.18.0:
     dependencies:
       esbuild: 0.23.1
       get-tsconfig: 4.7.6
