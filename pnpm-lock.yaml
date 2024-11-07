@@ -17,16 +17,16 @@ importers:
         version: 5.1.0
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.65(@sveltejs/kit@2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(typescript@5.6.3)
+        version: 1.9.65(@sveltejs/kit@2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(typescript@5.6.3)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
-        version: 3.3.1(@sveltejs/kit@2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))
+        version: 3.3.1(@sveltejs/kit@2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))
       '@sveltejs/kit':
         specifier: ^2.0.0
-        version: 2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
+        version: 2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^4.0.0
         version: 4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
@@ -1250,8 +1250,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.7.7':
-    resolution: {integrity: sha512-EvNErTd0QuIUX6SbZecOJQus3cILJR87XyIQXF4kfwWap63/OV58GGTEI47k3ydrFssAWGw4eu3RlB2dmBYETA==}
+  '@sveltejs/kit@2.8.0':
+    resolution: {integrity: sha512-HCiWupCuKJQ3aPaC4Xc6lpPdjOOnoGzEiYjOqMqppdtfGtY2ABrx932Vw66ZwS2RGXc0BmZvFvNq5SzqlmDVLg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -3694,10 +3694,10 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.65(@sveltejs/kit@2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(typescript@5.6.3)':
+  '@jill64/sveltekit-adapter-aws@1.9.65(@sveltejs/kit@2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(typescript@5.6.3)':
     dependencies:
       '@jill64/types-lambda': 1.2.2(typescript@5.6.3)
-      '@sveltejs/kit': 2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
+      '@sveltejs/kit': 2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
       '@types/mime-types': 2.1.4
       aws-cdk: 2.155.0
       aws-cdk-lib: 2.155.0(constructs@10.3.1)
@@ -3855,12 +3855,12 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
 
-  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))':
+  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))':
     dependencies:
-      '@sveltejs/kit': 2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
+      '@sveltejs/kit': 2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.7.7(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))':
+  '@sveltejs/kit@2.8.0(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0)))(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 4.0.0(svelte@5.1.11)(vite@5.4.10(terser@5.36.0))
       '@types/cookie': 0.6.0
