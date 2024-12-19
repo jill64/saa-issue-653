@@ -17,16 +17,16 @@ importers:
         version: 5.1.0
       '@jill64/sveltekit-adapter-aws':
         specifier: ^1.8.13
-        version: 1.9.69(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(typescript@5.7.2)
+        version: 1.9.69(@sveltejs/kit@2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(typescript@5.7.2)
       '@neoconfetti/svelte':
         specifier: ^2.0.0
         version: 2.2.1
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
-        version: 3.3.1(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))
+        version: 3.3.1(@sveltejs/kit@2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))
       '@sveltejs/kit':
         specifier: ^2.0.0
-        version: 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
+        version: 2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^4.0.0
         version: 4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
@@ -1252,8 +1252,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.12.2':
-    resolution: {integrity: sha512-7/nHyKxo3wzBMownGgaVvEfM2TGLwjUKgmHhLw/Qbyb5xmJ+40vYa0V2XJqJ2fRnTCfCcJ0Ya51ZVNW3vtn4rA==}
+  '@sveltejs/kit@2.13.0':
+    resolution: {integrity: sha512-6t6ne00vZx/TjD6s0Jvwt8wRLKBwbSAN1nhlOzcLUSTYX1hTp4eCBaTPB5Yz/lu+tYcvz4YPEEuPv3yfsNp2gw==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -3754,10 +3754,10 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@jill64/sveltekit-adapter-aws@1.9.69(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(typescript@5.7.2)':
+  '@jill64/sveltekit-adapter-aws@1.9.69(@sveltejs/kit@2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(typescript@5.7.2)':
     dependencies:
       '@jill64/types-lambda': 1.2.3(typescript@5.7.2)
-      '@sveltejs/kit': 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
+      '@sveltejs/kit': 2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
       '@types/mime-types': 2.1.4
       aws-cdk: 2.155.0
       aws-cdk-lib: 2.155.0(constructs@10.3.1)
@@ -3921,12 +3921,12 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
 
-  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))':
+  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))':
     dependencies:
-      '@sveltejs/kit': 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
+      '@sveltejs/kit': 2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))':
+  '@sveltejs/kit@2.13.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 4.0.4(svelte@5.14.5)(vite@5.4.11(terser@5.37.0))
       '@types/cookie': 0.6.0
